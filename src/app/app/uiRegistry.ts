@@ -4,7 +4,7 @@
 import dayjs from "dayjs";
 import "dayjs/locale/ru";
 import Vue from "vue";
-import Vuetify from "vuetify";
+import Vuetify from 'vuetify';
 
 export class UIRegistry {
 

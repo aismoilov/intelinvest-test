@@ -3,6 +3,7 @@ import {AppFrame} from "./app/app/appFrame";
 import {UI} from "./app/app/ui";
 import {UIRegistry} from "./app/app/uiRegistry";
 import {RouterConfiguration} from "./app/router/routerConfiguration";
+import store from './app/store/index';
 
 /**
  * Запуск приложения
@@ -24,7 +25,7 @@ export async function start(): Promise<void> {
         const router = RouterConfiguration.getRouter();
         // Обработчик _синхронных_ ошибок в lifecycle-хуках роутера
         router.onError(errorHandler);
-        const app = new AppFrame({router});
+        const app = new AppFrame({router, store});
         app.$mount("#app");
     } catch (error) {
         console.error("ERROR WHILE INIT APPLICATION", error);

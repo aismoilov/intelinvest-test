@@ -19,6 +19,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.4.1",
     "axios": "^0.24.0",
+    "class-transformer": "^0.5.1",
     "dayjs": "^1.8.16",
     "font-awesome-animation": "^0.2.1",
     "typescript-ioc": "^1.2.5",
@@ -47,9 +48,11 @@
     "gulp-typescript": "5.0.0",
     "gulp-uglify": "3.0.1",
     "gulp-util": "^3.0.8",
+    "json-server": "^0.17.0",
     "lodash.camelcase": "^4.3.0",
     "mini-css-extract-plugin": "^0.4.3",
     "node-notifier": "^5.2.1",
+    "npm-run-all": "^4.1.5",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
@@ -60,8 +63,6 @@
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
-    "webpack-stream": "^5.1.1",
-    "json-server": "^0.17.0",
-    "npm-run-all": "^4.1.5"
+    "webpack-stream": "^5.1.1"
   }
 }
